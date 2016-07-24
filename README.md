@@ -1,1 +1,3 @@
-React weather app
+React Forecaster
+
+Weather application developed with React, Node, and Express.
