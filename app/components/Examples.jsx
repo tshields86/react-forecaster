@@ -14,10 +14,10 @@ var Examples = (props) => {
           <Link to='/?location=SanFransisco'>San Fransisco, CA</Link>
         </li>
         <li>
-          <Link to='/?location=London'>London, UK</Link>
+          <Link to='/?location=London'>London, United Kingdom</Link>
         </li>
         <li>
-          <Link to='/?location=Tokyo'>Tokyo, JP</Link>
+          <Link to='/?location=Tokyo'>Tokyo, Japan</Link>
         </li>
       </ol>
     </div>
