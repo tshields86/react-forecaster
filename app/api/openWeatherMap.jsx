@@ -1,7 +1,9 @@
 var axios = require('axios');
 var {openWeatherMapKey} = require('keys');
 
-const OPEN_WEATHER_MAP_URL = `http://api.openweathermap.org/data/2.5/weather?&units=imperial&appid=${openWeatherMapKey}`;
+// const OPEN_WEATHER_MAP_URL = `http://api.openweathermap.org/data/2.5/weather?&units=imperial&appid=${openWeatherMapKey}`;
+// const OPEN_WEATHER_MAP_URL = `http://api.openweathermap.org/data/2.5/weather?&units=imperial&appid=${process.env.OPENWEATHERMAP || openWeatherMapKey}`;
+const OPEN_WEATHER_MAP_URL = 'http://api.openweathermap.org/data/2.5/weather?&units=imperial&appid=bbd1b75d8f469372c4fe6d64271a802c';
 
 
 
