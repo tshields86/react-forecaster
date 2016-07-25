@@ -15,10 +15,10 @@ var Nav = React.createClass({
   },
   render: function () {
     return (
-      <div className="top-bar">
+      <div className="top-bar navigation">
         <div className="top-bar-left">
           <ul className="menu">
-            <li className="menue-text">React Forecaster</li>
+            <li className="menu-text">React Forecaster</li>
             <li>
               <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Get Weather</IndexLink>
             </li>
